@@ -3,8 +3,8 @@
               Any modifications will be overwritten.
               To include a user specific buildfile here, simply create one in the same
               directory with the processing instruction <?eclipse.ant.import?>
-              as the first entry and export the buildfile again. --> <project basedir="." default="build" name="team5">
-              	xmlns:jacoco="antlib:org.jacoco.ant"
+              as the first entry and export the buildfile again. --> <project basedir="." default="build" name="team5"
+              	xmlns:jacoco="antlib:org.jacoco.ant">
     <property environment="env" />
 	<property name="junit.output.dir" value="junit" />
 	<property name="debuglevel" value="source,lines,vars" />
